@@ -1,6 +1,6 @@
 
-# samuel_agyekum_msc_project_player_performance_analysis.py
-# Saving & Loading Script for Msc Data Analytics & IT Security Management - Research Project
+# samuel_agyekum_research_project_player_performance_analysis.py
+# Saving & Loading Script for my Research Project
 # Author Samuel Boadi Agyekum
 # Project Title: Player Performance Analysis in Sports Using Data Analytics
 # Updated: 3rd May 2025
