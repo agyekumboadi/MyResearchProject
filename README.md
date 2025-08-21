@@ -1,6 +1,6 @@
 # Player Performance Analysis in Sports
 ------------------------------------------------------------------------------------------------------------------------
-This repository contains the source code, workflow diagrams, and analysis outputs from my MSc research project:  
+This repository contains the source code, workflow diagrams, and analysis outputs from my research project:  
 **"Player Performance Analysis in Sports Using Data Analytics"**  
 
 The project applies *machine learning models* to forecast player performance across multiple sports, using a reproducible data pipeline and interpretable models.
@@ -22,26 +22,35 @@ By combining *statistical analysis*, *feature engineering*, and *predictive mode
 
 The repository is organised as follows:
 
-MyMScProject/
-└── Player_Performance_Analysis_in_Sports/
-├── docs/
-│ └── flowchart/ # Workflow diagrams
-├── outputs/
-│ ├── analysis/ # Model evaluation PNGs + text summaries
-│ │ ├── basketball_model_evaluation/ # Basketball model evaluation text files
-│ │ ├── crosssport_model_evaluation/ # Cross-sport model evaluation text files
-│ ├── eda_visuals/ # Exploratory Data Analysis visuals (PNG)
-│ ├── plots/ # PCA variance plots and other charts
-│ ├── shap_plots/ # SHAP summary and waterfall plots
-├── src/
-│ ├── samuel_agyekum_msc_project_player_performance_analysis.py # Python source file
-│ ├── Sports_Performance_Analysis_Model.ipynb # Jupyter Notebook
-├── .attributes
-├── .gitignore
-├── LICENSE
-├── README.md
-├── requirements.txt
-
+MyResearchProject/  
+└── Player_Performance_Analysis_in_Sports/  
+    ├── docs/  
+    │   └── flowchart/                   # Project workflow diagram(s)  
+    │
+    ├── outputs/  
+    │   ├── analysis/                 # Model evaluation PNGs and text files  
+    │   │   ├── *.png  
+    │   │   ├── basketball_model_evaluation.txt  
+    │   │   └── crosssport_model_evaluation.txt  
+    │   │  
+    │   ├── eda_visuals/               # Exploratory Data Analysis visuals  
+    │   │   └── *.png  
+    │   │
+    │   ├── plots/                      # PCA and other plots  
+    │   │   └── pca_explained_variance_cleaned.png  
+    │   │
+    │   └── shap_plots/                 # SHAP summary and interpretation visuals  
+    │       └── shap_summary_crosssport.png  
+    │
+    ├── src/  
+    │   ├── samuel_agyekum_research_project_player_performance_analysis.py   # Python source file  
+    │   └── Sports_Performance_Analysis_Model.ipynb                     # Jupyter Notebook source file  
+    │
+    ├── .attributes  
+    ├── .gitignore  
+    ├── LICENSE  
+    ├── README.md  
+    └── requirements.txt  
 
 
 **Note:**  
@@ -113,10 +122,10 @@ The project follows the **CRISP-DM framework**:
 
 ### Steps
 1. Clone the repository
-git clone https://github.com/agyekumboadi/MyMScResearchProject.git
+git clone https://github.com/agyekumboadi/MyResearchProject.git
 
 2. Navigate into the folder
-cd MyMScResearchProject/Player_Performance_Analysis_in_Sports
+cd MyResearchProject/Player_Performance_Analysis_in_Sports
 
 3. Install dependencies
 pip install -r requirements.txt 
@@ -137,7 +146,7 @@ This ensures:
 
 1. Data confidentiality
 2. Prevention of academic misconduct
-3. Compliance with MSc dissertation policies
+3. Compliance with research policies
 
 License
 
