@@ -160,6 +160,6 @@ Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 License:
 
 # Contact Author
 
-Author: Samuel Boadi Agyekum
-Email: agyekumowuraku@outlook.com
-LinkedIn: http://linkedin.com/in/samuelbagyekum
+Author: Samuel Boadi Agyekum  
+Email: agyekumowuraku@outlook.com  
+LinkedIn: http://linkedin.com/in/samuelbagyekum  
